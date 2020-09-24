@@ -4,12 +4,28 @@
             <v-container>
                 <v-row>
                     <v-col>
-                        <h1>Contact Information</h1>
+                        <h1 class="text-center">Contact Information</h1>
                     </v-col>
                 </v-row>
                 <v-row>
-                    <v-col>
-                        <v-icon></v-icon>
+                    <v-col sm="6" offset-sm="3" class="d-flex justify-space-around">
+                        <!-- <v-icon></v-icon> -->
+                        <img 
+                            class="contact-icon" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" 
+                        >
+                        <img 
+                            class="contact-icon" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" 
+                        >
+                        <img 
+                            class="contact-icon" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/vimeo.svg" 
+                        >
+                        <img 
+                            class="contact-icon" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" 
+                        >
                     </v-col>
                 </v-row>
             </v-container>
@@ -23,6 +39,8 @@
     }
 </script>
 
-<style lang="scss" scoped>
-
+<style scoped>
+    .contact-icon {
+        height: 30px;
+    }
 </style>

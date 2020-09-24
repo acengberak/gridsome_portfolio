@@ -1,10 +1,10 @@
 <template>
     <div>
-        <section class="education-section">
+        <section class="education-section pa-5">
             <v-container>
                 <v-row>
                     <v-col>
-                        <h1>Education & Experience</h1>
+                        <h1 class="text-center">Education & Experience</h1>
                     </v-col>
                 </v-row>
                 <v-row>
