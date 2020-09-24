@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="contact-section">
+        <section id="contact" class="contact-section">
             <v-container>
                 <v-row>
                     <v-col>

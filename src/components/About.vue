@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section>
+    <section id="about">
       <v-container>
         <v-row>
           <v-col sm="4">
@@ -96,6 +96,5 @@ export default {
 </script>
 
 <style scoped>
-.g-image {
-}
+
 </style>

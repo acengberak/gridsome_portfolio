@@ -33,6 +33,7 @@
             v-for="item in items"
             :key="item.title"
             link
+            :to="`#${item.title.toLowerCase().replace(' & ', '-')}`"
           >
             <v-list-item-icon>
               <v-icon>{{ item.icon }}</v-icon>

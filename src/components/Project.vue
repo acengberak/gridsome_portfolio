@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section>
+    <section id="projects">
       <v-container class="project-section">
         <v-row>
           <v-col>
@@ -39,5 +39,5 @@ export default {
     color: #0D0221;
   }
 
-  
+
 </style>

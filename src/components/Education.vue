@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="education-section pa-5">
+        <section id="education-experience" class="education-section pa-5">
             <v-container>
                 <v-row>
                     <v-col>
